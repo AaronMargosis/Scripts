@@ -9,6 +9,8 @@ Like the rest of the SysNocturnals tools, these scripts are entirely free for us
 |Script name|Synopsis and Description|
 |---|---|
 |**AddCurrDirToPath.ps1**|Adds the current file system directory to the Path environment variable for the current PowerShell session.<br><br>For example, adding the Windows Debugging Tools directory to the path for this PowerShell session:<br><br>`pushd 'C:\Program Files (x86)\Windows Kits\10\Debuggers\x64'`<br>`AddCurrDirToPath`<br>`popd`<br>`# Now windbg.exe is in the Path...`|
+|**DownloadAaronLockerV2.ps1**|Download the latest AaronLockerV2 tools to "C:\Program Files\AaronLockerV2" and ensure that directory is in the Path.<br>Requires administrative rights.|
+|**DownloadSCTTools.ps1**|Download Microsoft Security Compliance Toolkit tools to "C:\Program Files\SCT" and ensure that directory is in the Path.<br>Requires administrative rights.|
 |**DownloadSysinternals.ps1**|Download the latest Sysinternals tools to "C:\Program Files\Sysinternals" and ensure that directory is in the Path.<br>Requires administrative rights.|
 |**DownloadSysNocturnals.ps1**|Download the latest SysNocturnals tools to "C:\Program Files\SysNocturnals" and ensure that directory is in the Path.<br>Requires administrative rights.|
 |**IsAdmin.ps1**|Outputs a [System.Boolean] to indicate whether the current PowerShell session is executing with administrative rights.|
